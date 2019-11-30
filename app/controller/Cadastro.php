@@ -22,5 +22,5 @@ try
 }
 catch(Exception $e)
 {
-    echo $e;
+    echo 0;
 }

@@ -34,8 +34,11 @@ include('functions/Url.php');
     <!-- Jquery mask -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 
-    <!-- Script de login -->
-    <script src="<?php echo Url::Base_url() ?>assets/js/painel-adm/script-painel-adm.js"></script>
+    <!-- Script de cadastro -->
+    <script src="<?php echo Url::Base_url() ?>assets/js/painel-adm/script-cadastro.js"></script>
+
+    <!-- Script de detalhes -->
+    <script src="<?php echo Url::Base_url() ?>assets/js/painel-adm/script-detalhes.js"></script>
 </body>
 
 </html>

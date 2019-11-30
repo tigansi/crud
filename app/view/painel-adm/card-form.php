@@ -11,6 +11,10 @@
                     <i class="material-icons large left">add</i>
                 </button>
 
+                <button data-target="modal-cadastro-livros" class="blue modal-trigger btn waves-effect waves-light right">Outros registros
+                    <i class="material-icons large left">folder</i>
+                </button>
+
                 <div class="row">
                     <div class="col l12">
                         <?php include('view/painel-adm/table-itens.php'); ?>
@@ -24,3 +28,6 @@
 
 <!-- Modal Cadastro de livro -->
 <?php include('modal-cadastro.php'); ?>
+
+<!-- Modal Detalhes do livro -->
+<?php include('modal-detalhes.php'); ?>
