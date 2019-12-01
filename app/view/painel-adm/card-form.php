@@ -26,8 +26,12 @@
     <div class="col l1"></div>
 </div>
 
+<!-- Modal Detalhes do livro -->
+<?php include('modal-detalhes.php'); ?>
+
+<!-- Modal Pergunta de exclusão de livro -->
+<?php include('modal-pergunta-exclusao.php'); ?>
+
 <!-- Modal Cadastro de livro -->
 <?php include('modal-cadastro.php'); ?>
 
-<!-- Modal Detalhes do livro -->
-<?php include('modal-detalhes.php'); ?>

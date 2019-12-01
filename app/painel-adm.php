@@ -39,6 +39,9 @@ include('functions/Url.php');
 
     <!-- Script de detalhes -->
     <script src="<?php echo Url::Base_url() ?>assets/js/painel-adm/script-detalhes.js"></script>
+
+     <!-- Script de Exclusão -->
+     <script src="<?php echo Url::Base_url() ?>assets/js/painel-adm/script-exclusao.js"></script>
 </body>
 
 </html>

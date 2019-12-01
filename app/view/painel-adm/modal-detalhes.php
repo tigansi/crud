@@ -4,22 +4,22 @@
         <h4 class="flow-text">Cadastro de novos livros</h4>
         <form id="form-cadastro-livro" method="post" autocomplete="off">
             <div class="input-field">
-                <input type="text" id="cad-titulo" class="validate">
+                <input type="text" id="det-titulo" class="validate">
                 <label for="cad-titulo">Título</label>
             </div>
 
             <div class="input-field">
-                <input type="text" id="cad-autor" class="validate">
+                <input type="text" id="det-autor" class="validate">
                 <label for="cad-autor">Autor</label>
             </div>
 
             <div class="input-field">
-                <input type="text" id="cad-isbn" class="validate">
+                <input type="text" id="det-isbn" class="validate">
                 <label for="cad-isbn">ISBN</label>
             </div>
 
             <div class="input-field">
-                <textarea class="materialize-textarea flow-text validate" id="cad-desc"></textarea>
+                <textarea class="materialize-textarea flow-text validate" id="det-desc"></textarea>
                 <label for="cad-desc">Descrição</label>
             </div>
 

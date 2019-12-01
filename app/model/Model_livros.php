@@ -44,9 +44,13 @@ class Model_livros
         }
     }
 
-    public function BuscaInfo()
+    public function Detalhes($isbn)
     {
         require('MySQL.php');
-        $mysql  = new MySQL();
+        $mysql = new MySQL();
+        $query = "SELECT isbn, titulo_livro, autor FROM livros WHERE is_ativo = '1' and isbn = '$isbn' ";
+    
+        $comando = mysqli_query($mysql->Conexao(), $query);
+        return mysqli_fetch_assoc($comando);
     }
 }
