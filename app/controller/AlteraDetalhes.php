@@ -18,12 +18,9 @@ try
     $to_livro->setIsbn_livro($isbn_livro);
     $to_livro->setDesc_livro($desc_livro);
 
-    if($model_livros->Cadastra_livros($to_livro))
-        echo '1';
-    else
-        echo '0';
+    echo $model_livros->AlteraLivro($to_livro);
 }
 catch(Exception $e)
 {
-    echo '0';
+    echo 0;
 }

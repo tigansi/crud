@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.modal').modal();
-    $('#cad-isbn').mask('9999');
+    $('#cad-isbn').mask('999-99-99999-99-9');
 
     $('#al-titulo').hide();
     $('#al-autor').hide();
@@ -42,11 +42,11 @@ $(document).ready(function() {
                 url: "controller/Cadastro.php",
                 success: function(data) {
                     console.log(data);
-                    if (data) {
+                    if (data == '1') {
                         $('#info-cadastro').append('<label class="helper-text green-text">Cadastro realizado com sucesso</label>');
                         setTimeout(function() { location.reload(); }, 3000);
                     } else {
-                        $('#info-cadastro').append('<label class="helper-text red-text">Erro ao cadastrar</label>');
+                        $('#info-cadastro').append('<label class="helper-text red-text">Erro ao fazer o cadastro, Motivo: ISBN já existe no banco de dados</label>');
                     }
                 }
             });

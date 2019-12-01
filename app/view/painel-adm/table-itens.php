@@ -1,4 +1,4 @@
-<table class="bordered centered striped table-responsive">
+<table class="bordered centered striped responsive-table">
     <thead>
         <tr>
             <th data-field="Titulo">Titulo</th>

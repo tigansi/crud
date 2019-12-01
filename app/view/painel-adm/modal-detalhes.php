@@ -1,34 +1,43 @@
 <!-- Modal Cadastro de livro -->
 <div id="modal-detalhes-livros" class="modal">
     <div class="modal-content flow-text">
-        <h4 class="flow-text">Cadastro de novos livros</h4>
-        <form id="form-cadastro-livro" method="post" autocomplete="off">
+        <h4 class="flow-text">Detalhes do Livro</h4>
+        <form id="form-detalhes-livro" method="post" autocomplete="off">
             <div class="input-field">
-                <input type="text" id="det-titulo" class="validate">
-                <label for="cad-titulo">Título</label>
+                <input type="text" id="det-titulo" value=" " class="validate">
+                <label for="det-titulo">Título</label>
             </div>
 
             <div class="input-field">
-                <input type="text" id="det-autor" class="validate">
-                <label for="cad-autor">Autor</label>
+                <input type="text" id="det-autor" value=" " class="validate">
+                <label for="det-autor">Autor</label>
             </div>
 
             <div class="input-field">
-                <input type="text" id="det-isbn" class="validate">
-                <label for="cad-isbn">ISBN</label>
+                <input type="text" id="det-isbn" readonly value=" " class="validate disble">
+                <label for="det-isbn">ISBN</label>
             </div>
 
             <div class="input-field">
-                <textarea class="materialize-textarea flow-text validate" id="det-desc"></textarea>
-                <label for="cad-desc">Descrição</label>
+                <textarea class="materialize-textarea flow-text validate" id="det-desc"> </textarea>
+                <label for="det-desc">Descrição</label>
             </div>
 
-            <button type="submit" id="btn-cadastrar-livro" class="right btn waves">Alterar
-                <i class="material-icons large left">edit</i>
-            </button>
+            <div for="" id="info-alteracao"></div>
+
+            <div class="right">
+                <button class="modal-close waves-effect waves-green btn-flat">
+                    Fechar
+                    <i class="material-icons left">close</i>
+                </button>
+
+                <button type="submit" id="btn-cadastrar-livro" class="green btn waves">Alterar
+                    <i class="material-icons large left">edit</i>
+                </button>
+            </div>
         </form>
     </div>
     <div class="modal-footer">
-        <!-- <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a> -->
+
     </div>
 </div>

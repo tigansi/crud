@@ -26,12 +26,20 @@
                 <label for="cad-desc">Descrição</label>
                 <span class="helper-text red-text" id="al-descricao" data-error="Campo em branco">Campo em branco</span>
             </div>
-            
+
             <div for="" id="info-cadastro"></div>
 
-            <button type="submit" id="btn-cadastrar-livro" class="right btn waves green">Cadastrar
-                <i class="material-icons large left">add</i>
-            </button>
+            <div class="right">
+                <button class="modal-close waves-effect waves-green btn-flat">
+                    Fechar
+                    <i class="material-icons left">close</i>
+                </button>
+
+                <button type="submit" id="btn-cadastrar-livro" class="right btn waves green">Cadastrar
+                    <i class="material-icons large left">add</i>
+                </button>
+            </div>
+
         </form>
     </div>
     <div class="modal-footer">
